@@ -390,6 +390,19 @@ function set_buffer_size(sampleRate, window_len)
     return bufferSize
 }
 
+document.querySelector('button').addEventListener('click', function() 
+{
+    if(use_mic==1)
+    {
+        
+        by_mic()
+        document.getElementById('button').style.visibility = 'hidden';
+        prediction_engine();
+        
+    }
+  });
+
+  
 function
 /* call given function
 on new microphone analyser
@@ -478,11 +491,11 @@ function setup()
     createCanvas(BOX_WIDTH * MFCC_HISTORY_MAX_LENGTH, BOX_HEIGHT * cur_mfcc.length)
     background(255, 230, 150)
 
-    if(use_mic==1)
-    by_mic();
-    else
+    if(use_mic==0)
+    {
     by_file();
     prediction_engine();
+    }
 }
 
 function by_mic()
