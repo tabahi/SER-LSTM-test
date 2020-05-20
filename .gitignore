@@ -1,0 +1,5 @@
+Archive/
+cache/
+__pycache__/
+*.wav
+
