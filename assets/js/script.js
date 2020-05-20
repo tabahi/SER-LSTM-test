@@ -400,6 +400,9 @@ document.querySelector('button').addEventListener('click', function()
         prediction_engine();
         
     }
+    else{
+        alert("Error: Microphone inaccessible")
+    }
   });
 
   
