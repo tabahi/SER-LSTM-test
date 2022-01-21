@@ -5,8 +5,9 @@ Demo: https://tabahi.github.io/SER-LSTM-test/
 
 Uses tensorflow JS library to predict emotions from speech MFCC features.
 
-## Layer structure
+## Trained Model
 
+The model is trained with following layers and parameters using the IEMOCAP database to predict 4 basic emotions (Anger, Happy, Sad, Neutral, and Silence). 
 - Dense, 33
 - LSTM, 16
 - LSTM, 8
