@@ -1,4 +1,4 @@
-# SER-LSTM-test
+# Real-time SER-LSTM-test
 Speech emotion recognition in real-time using LSTM
 
 Demo: https://tabahi.github.io/SER-LSTM-test/
