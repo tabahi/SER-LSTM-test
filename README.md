@@ -1,4 +1,4 @@
-# wildspeech
+# SER-LSTM-test
 Speech emotion recognition in real-time using LSTM
 
 Demo: https://tabahi.github.io/SER-LSTM-test/
@@ -13,3 +13,5 @@ Uses tensorflow JS library to predict emotions from speech MFCC features.
 - Drop-out, 0.8
 - Time Distributed Dense, 5
 - Softmax
+
+Note: The latency increases as the MFCC buffer size increases.
