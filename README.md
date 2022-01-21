@@ -1,7 +1,7 @@
 # Real-time SER-LSTM-test
 Speech emotion recognition in real-time using LSTM
 
-Demo: https://tabahi.github.io/SER-LSTM-test/
+Conventional LSTM based demo: https://tabahi.github.io/SER-LSTM-test/
 
 Uses tensorflow JS library to predict emotions from speech MFCC features.
 
@@ -16,3 +16,6 @@ The model is trained with following layers and parameters using the IEMOCAP data
 - Softmax
 
 Note: The latency increases as the MFCC buffer size increases.
+
+
+**The new proposed method that performs better is demonstrated at: https://realtime-speech-emotion.netlify.app/**
